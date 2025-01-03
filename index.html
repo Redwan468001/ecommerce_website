@@ -4,21 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" product="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/43f70b9b97.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="assets/css/flexslider.css" type="text/css" media="screen">
+    <!-- Slick Slider CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slick-slider.css" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="cmn-style.css">
     <link rel="stylesheet" href="responsive.css">
 
-    <!-- Slick Slider CSS -->
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
 
     <title>Mugdhota</title>
 </head>
 <body>
 
     <!-- Header Section -->
+
+    <!-- Header top section -->
+     <div class="container_full" style="padding: 0;">
+        <div class="container">
+            <div class="header_top_section">
+                <div class="hts_left">
+                    <p class="htc_left_au">About Us </p>
+                    <p><i class="fa-solid fa-truck"></i> Order Tracking</p>
+                </div>
+                <div class="hts_right">
+                    <p>Need help? Call us <a href="">01234567895</a></p>
+                </div>
+            </div>
+        </div>
+     </div>
 
     <div class="container_header">
         <div class="container">
@@ -48,11 +62,29 @@
                     </div>
         
                     <div class="mugdhota_web_info_right desk">
-                        <div class="user_info">
-                            <a href="#">
-                                <span>Log-in</span>
-                                <i class="fa fa-user-circle-o"></i>
-                            </a>
+                        <div class="mugdhota_web_info_right_sec desk">
+                            <div class="cart_wish_list wish">
+                                <h1>
+                                    <i class="fa-regular fa-heart"></i>
+                                    <span class="cw_num">5</span>
+                                </h1>
+                                <h2>Wishlist</h2>
+                            </div>
+                            <div class="cart_wish_list cart">
+                                <h1>
+                                    <i class="fa-solid fa-cart-shopping"></i>
+                                    <span class="cw_num">5</span>
+                                </h1>
+                                <h2>Cart</h2>
+                            </div>
+                            <div class="cart_wish_list account">
+                                <a href="#">
+                                    <h1>
+                                        <i class="fa fa-user-circle-o"></i>
+                                    </h1>
+                                    <h2>Account</h2>
+                                </a>
+                            </div>
                         </div>
                     </div>
         
@@ -122,15 +154,15 @@
             <div class="all_product_category">
                 <div class="product_category">
                     <div class="cat_title">
-                        <h2>All Departments</h2>
+                        <h2><i class="fa-solid fa-bars"></i> All Departments</h2>
                     </div>
                     <div class="cat_name">
                         <ul>
-                            <li><a href="#">Fruits</a></li>
-                            <li><a href="#">Vegetable</a></li>
-                            <li><a href="#">Oil</a></li>
-                            <li><a href="#">Seeds</a></li>
-                            <li><a href="#">Cloths</a></li>
+                            <li><a href="#"><i class="fa-solid fa-apple-whole"></i> Fruits</a></li>
+                            <li><a href="#"><i class="fa-solid fa-carrot"></i> Vegetable</a></li>
+                            <li><a href="#"><i class="fa-solid fa-bottle-droplet"></i> Oil</a></li>
+                            <li><a href="#"><i class="fa-solid fa-bowl-rice"></i> Seeds</a></li>
+                            <li><a href="#"><i class="fa-solid fa-shirt"></i> Cloths</a></li>
                         </ul>
                     </div>
                 </div>
@@ -190,8 +222,8 @@
                 </div>
             </div>
             <div class="slider_controler">
-                <button class="slide_prev"><i class="material-icons">arrow_back</i></button>
-                <button class="slide_next"><i class="material-icons">arrow_forward</i></button>
+                <button class="slide_prev"><i class="fa-solid fa-arrow-left"></i></button>
+                <button class="slide_next"><i class="fa-solid fa-arrow-right"></i></button>
             </div>
         </div>
 
@@ -279,12 +311,16 @@
                                                                 <i class="fa fa-heart-o"></i>
                                                             </div>
                                                         </div>
+                                                        <div class="discount_sec">
+                                                            <p>20% Off</p>
+                                                        </div>
                                                     </div>
                                                     <div class="product_info">
                                                         <h2>The standard Lorem</h2>
                                                         <div class="price_add_cart">
                                                             <div class="product_price">
                                                                 <h1>850</h1>
+                                                                <h3>1000</h3>
                                                             </div>
                                                             <div class="add_cart_btn">
                                                                 <button><i class="fa fa-shopping-bag"></i> Add</button>
@@ -576,10 +612,10 @@
 
     <script src="assets/js/script.js"></script>
     <!-- jQuery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
 
     <!-- Slick Slider JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="assets/js/slick.js"></script>
 
     <!-- Slider Js -->
     <script>
